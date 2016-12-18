@@ -1,0 +1,44 @@
+Responsive Website
+API
+server  client communication
+
+html5-compontent +css3+styles + javascript + JSON
+
+JQuery Mobile
+HTML5 + CSS3 - components+ js + JSON mime type
+Form Validation
+
+w3schools.com  - tutorial site
+
+scm - github
+
+DB - Service - UI
+
+.java -source file - .class -compiled code - .jar/.war file
+
+automate - buildtools - maven3
+
+
+Registration form
+
+Name:
+Date ofBirth:
+Father Name:
+Mother Name:
+Address:
+mobile number:
+Gender:
+Occupation:
+Community:
+Nationality:
+Aadharcard:
+Religion:
+
+Submit
+
+FetchData - Validation -Styles apply
+
+
+
+
+

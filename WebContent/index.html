@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+h1 {
+    width: 800px;
+    height: 100px;
+    color: #99ff66;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    /*transform: rotateZ(90deg);*/
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {color: black;}
+    to {color: #99ff66;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {color: black;}
+    to {color: #99ff66;}
+}
+</style>
+<script type="text/javascript">
+ 
+
+function sendToService(){
+    //pass the fetchData here
+
+}
+
+
+function fetchData(){
+
+var name = document.getElementById("student_name").value;
+
+var dob = document.getElementById("dob").value;
+
+alert(name + dob);
+}
+
+function findPlayer(){
+
+var nameJ = $('#student_name').val();
+var dobJ = $('#dob').val();
+
+alert("From JQuery: "+nameJ+ dobJ);
+}
+
+</script>
+
+
+<!-- Include the jQuery library -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+
+
+<div><p><h1>ADK Table Tennis Tournament Manager</h1></p></div>
+<h2>Registration Form</h2>
+Name: <input type="text" id="student_name"/></br>
+Date of Birth <input type="text" id="dob"/>
+
+<input type="button" name="submit" value="Submit"onclick="fetchData();findPlayer()">
+</body>
+</html>
