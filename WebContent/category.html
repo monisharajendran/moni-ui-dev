@@ -15,6 +15,9 @@
 
 <!-- Include the jQuery Mobile library -->
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-storage-api/1.9.4/jquery.storageapi.min.js"></script>
+
+
 
 <script src="js/category_mock.js"></script>
 
@@ -88,10 +91,10 @@ $(document).ready(function() { /*code here */
 <div data-role="main" class="ui-content">
 <h2>Create Category</h2>
 <div data-role="controlgroup" data-type="horizontal">
-<a href="#create_category" data-role="button" data-icon="plus">Create</a>
-<a href="#read_category" data-role="button" data-icon="search">Read</a>
+<a href="#create_category" data-role="button" data-icon="plus" onClick="createCategory('cadet','boys','singles')">Create</a>
+<a href="#read_category" data-role="button" data-icon="search" onClick="readCategory('cadet')">Read</a>
 <a href="#update_category" data-role="button" data-icon="check">Update</a>
-<a href="#delete_category" data-role="button" data-icon="delete">Delete</a>
+<a href="#delete_category" data-role="button" data-icon="delete" onClick="clearLocalStorage()">Delete</a>
 </div>
 <div>
 <!-- Form needs to be added here and javasript methods to call on form submit -->
